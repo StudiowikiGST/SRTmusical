@@ -13,7 +13,7 @@
 // If you don't know how to get a bot token, please see the guide here:
 // https://github.com/jagrosh/MusicBot/wiki/Getting-a-Bot-Token
 
-token = process.env.token
+token = ODg2ODAyNTg2OTMyNDk4NTEy.YT65RA.ikskfG5yqaqA0jcyDZgkzGUhmTk
 
 
 // This sets the owner of the bot
@@ -28,7 +28,7 @@ owner = 660026599097368588
 // If you use !!, the play command will be !!play
 // If you do not set this, the prefix will be a mention of the bot (@Botname play)
 
-prefix = "@mention"
+prefix = "."
 
 
 // If you set this, it modifies the default game of the bot
@@ -51,7 +51,7 @@ status = ONLINE
 // "Playing" status. Note that this will ONLY work if the bot is playing music on ONE guild;
 // if the bot is playing on multiple guilds, this will not work.
 
-songinstatus=false
+songinstatus=true
 
 
 // If you set this, the bot will also use this prefix in addition to
@@ -62,11 +62,11 @@ altprefix = "NONE"
 
 // If you set these, it will change the various emojis
 
-success = "�??�"
-warning = "�?��"
-error = "�??�"
-loading = "�??"
-searching = "�?�?"
+success = "🎶"
+warning = "⚠️"
+error = "🚫"
+loading = "🕒"
+searching = "🔍"
 
 
 // If you set this, you change the word used to view the help.
@@ -81,14 +81,14 @@ help = help
 // This is because refreshing the boxes causes the image to be reloaded
 // every time it refreshes.
 
-npimages = false
+npimages = true
 
 
 // If you set this, the bot will not leave a voice channel after it finishes a queue.
 // Keep in mind that being connected to a voice channel uses additional bandwith,
 // so this option is not recommended if bandwidth is a concern.
 
-stayinchannel = false
+stayinchannel = true
 
 
 // This sets the maximum amount of seconds any track loaded can be. If not set or set
@@ -102,7 +102,7 @@ maxtime = 0
 // automatically leaves the voice channel and clears the queue. If not set or set
 // to any number less than or equal to zero, the bot won't leave when alone.
 
-alonetimeuntilstop = 0
+alonetimeuntilstop = 250
 
 
 // This sets an alternative folder to be used as the Playlists folder
